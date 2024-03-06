@@ -1,0 +1,56 @@
+<form name = "bill" action="processbill.php" method = "POST" class="w-50 m-auto forms">
+  <h3>Bill Details</h3>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">BID</label>
+      <input type="text" class="form-control" name="bid">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">BDate</label>
+      <input type="date" class="form-control" name="bdate" >
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">BYear</label>
+      <input type="text" class="form-control" name="byear" />
+
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">BMonth</label>
+      <select class="form-select" aria-label="Default select example" name="bmonth">
+          <option selected>Select</option>
+          <option value="1">Baisakh</option>
+          <option value="2">Jestha</option>
+          <option value="3">Ashadh</option>
+          <option value="4">Shrawan</option>
+          <option value="5">Bhadra</option>
+          <option value="6">Ashoj</option>
+          <option value="7">Kartik</option>
+          <option value="8">Mangsir</option>
+          <option value="9">Poush</option>
+          <option value="10">Magh</option>
+          <option value="11">Falgun</option>
+          <option value="12">Chaitra</option>
+    </select>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">CUSID</label>
+      <input type="number" class="form-control" name="cusid">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Current Reading</label>
+      <input type="text" class="form-control" name="currentreading">
+    </div>
+    
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Previous Reading</label>
+      <input type="text" class="form-control" name="previousreading">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">BAmount</label>
+      <input type="text" class="form-control" name="bamount">
+    </div>
+     
+    <button type="submit" class="btn btn-success mb-5">Submit</button>
+  </form>
+

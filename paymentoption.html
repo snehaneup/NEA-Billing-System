@@ -1,0 +1,24 @@
+<form class="w-50 m-auto forms" name="paymentoption" action="processpaymentoptions.php" method="POST">
+<h3>Payment Options</h3>
+    <div class="mb-3">
+      <label for="" class="form-label"> POID</label>
+      <input type="text" class="form-control" name ="paymenttypeid">
+     
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">P.O Name</label>
+      <select class="form-select" aria-label="Default select example" name = "poname">
+      <option selected>Select </option>
+      <option value="1">esewa</option>
+      <option value="2">Khalti</option>
+      <option value="3">Imepay</option>
+    </select>
+    </div>
+
+    <div class="mb-3 form-check">
+      <label class="form-check-label" for="exampleCheck1">Status</label>
+      <input type="checkbox" class="form-check-input" id="status" name = "status">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
